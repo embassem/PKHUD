@@ -15,7 +15,7 @@ public enum HUDSize {
     case wide
     case custom (width: CGFloat, height:CGFloat)
     
-    func size () -> CGRect {
+   public func size () -> CGRect {
         
         switch self {
         case .default:
